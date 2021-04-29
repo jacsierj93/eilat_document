@@ -1,0 +1,105 @@
+html, body {
+    height: 100vh;
+}
+
+button{
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.table td, .table th{
+    vertical-align: middle;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.navbar{
+    flex-direction: row;
+    flex: 0;
+}
+
+#list-upload{
+    flex-direction: column;
+}
+
+.caption{
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    flex: 0;
+    width: 100%;
+}
+
+.caption h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.dropzone .dz-message .dz-button, .dl-btn{
+    
+    width: 250px;
+    height: 34px;
+    background: #DD2525;
+    color: #fff;
+    border-radius: 100px;
+    filter: drop-shadow(0px 4px 60px rgba(0, 0, 0, 0.05));
+    border-radius: 73px;
+}
+
+.dl-btn{
+    display: inline;
+    width: auto;
+    height: auto;
+    padding: 8px 15px;
+}
+
+.dropzone{
+    border:none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F9F9F9;
+}
+
+.dropzone.dz-drag-hover{
+    border: 1px dotted #d1d1d1;
+}
+
+.document-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1;
+}
+
+.document-container .mid-block{
+    flex: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+span.eye-icon{
+    background-image: url(https://i.imgur.com/gKYhCap.png);
+    background-position: center;
+    background-color: #F2F2F2;
+    background-repeat: no-repeat;
+    border-radius: 90px;
+    height: 30px;
+    width: 30px;
+    display: block;
+    cursor: pointer;
+}
